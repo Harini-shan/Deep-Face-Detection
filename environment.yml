@@ -1,0 +1,13 @@
+name: facedetect-final
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - tensorflow   
+  - pyqt=5
+  - matplotlib
+  - albumentations
+  - labelme
+  - jupyterlab
+  - ipykernel
+  - pip  # installed opencv=python==4.0.66 using pip
